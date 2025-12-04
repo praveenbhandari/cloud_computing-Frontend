@@ -1,6 +1,6 @@
-import { awsConfig } from '../config/aws-config';
+import { gcpConfig } from '../config/gcp-config';
 
-const API_URL = awsConfig.api.endpoint;
+const API_URL = gcpConfig.api.endpoint;
 
 // Get auth token from localStorage
 const getAuthToken = () => {
